@@ -66,6 +66,7 @@ body {
   min-width: 100%;
   left: 50%;
   top: 50%;
+  right: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
   z-index: 1;
@@ -74,12 +75,11 @@ body {
 
 #video-background2{ 
   position: absolute;
-  top: 80%; 
-  left: 50%;
+ 
   -webkit-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
   min-width: 100%; 
-  min-height: 150%; 
+  min-height: 100%; 
   width: auto;
   height: auto;
   z-index: 1; 
